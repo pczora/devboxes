@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/ansible,linux,osx
-# Edit at https://www.gitignore.io/?templates=ansible,linux,osx
+# Created by https://www.gitignore.io/api/ansible,vim,linux,osx
+# Edit at https://www.gitignore.io/?templates=ansible,vim,linux,osx
 
 ### Ansible ###
 *.retry
@@ -48,6 +48,22 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/ansible,linux,osx
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
 
-vars.yml
+# Session
+Session.vim
+
+# Temporary
+.netrwhist
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+# End of https://www.gitignore.io/api/ansible,vim,linux,osx
